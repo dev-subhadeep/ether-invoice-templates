@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Invoice</title>
+  </head>
+  <body class="p-10 w-[900px] mx-auto text-gray-500">
+    <div class="flex flex-row justify-between">
+      <div>
+        <h1 class="font-bold text-4xl uppercase text-black">Invoice</h1>
+        <p>#AB2324-01</p>
+      </div>
+      <div>
+        <img src="https://via.placeholder.com/100" class="h-20 w-20" alt="" />
+      </div>
+    </div>
+    <div class="grid grid-cols-3 border-t-2 border-b-2 my-8">
+      <div class="p-4 pl-0">
+        <div>
+          <p>Issued</p>
+          <p>01 Aug, 2023</p>
+        </div>
+        <div>
+          <p>Due</p>
+          <p>15 Aug, 2023</p>
+        </div>
+      </div>
+      <div class="border-l-2 border-r-2 p-4">
+        <p>Billed to</p>
+        <p>Company Name</p>
+        <p>Company Address</p>
+        <p>City Country - 0000</p>
+        <p>+0 (000) 123-4567</p>
+      </div>
+      <div class="p-4">
+        <p>From</p>
+        <p>Panda, Inc</p>
+        <p>Business Address</p>
+        <p>City, State, IN - 000 000</p>
+        <p>TAX ID 00XXXXX1234X0XX</p>
+      </div>
+    </div>
+    <div>
+      <table class="table-auto w-full">
+        <thead class="text-left border-b text-black">
+          <tr>
+            <th class="py-4">Product/Service</th>
+            <th class="py-4">Qty</th>
+            <th class="py-4">Category</th>
+            <th class="py-4">Line of business</th>
+            <th class="text-right">Rate</th>
+            <th class="text-right">Line total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="py-4 text-black font-bold">Cabinets/OFFICE DESK W/4</td>
+            <td>2</td>
+            <td>Labour</td>
+            <td>Manufacturing</td>
+            <td class="text-right">$10,255.00</td>
+            <td class="text-right">$10,255.00</td>
+          </tr>
+          <tr>
+            <td class="py-4 text-black font-bold">Cabinets/OFFICE DESK W/4</td>
+            <td>2</td>
+            <td>Labour</td>
+            <td>Manufacturing</td>
+            <td class="text-right">$10,255.00</td>
+            <td class="text-right">$10,255.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr class="my-6" />
+    <div class="flex justify-end">
+      <div>
+        <table class="w-[300px]">
+          <tbody>
+            <tr class="border-b">
+              <td class="font-bold text-black py-4">Subtotal</td>
+              <td class="text-right">$400.00</td>
+            </tr>
+            <tr class="border-b">
+              <td class="font-bold text-black py-4">Tax</td>
+              <td class="text-right">$0.00</td>
+            </tr>
+            <tr>
+              <td class="font-bold text-black py-4">Total</td>
+              <td class="text-right">$400.00</td>
+            </tr>
+            <tr class="border-b-2 border-t-2 border-[#0D37A4]">
+              <td class="font-bold text-[#0D37A4] py-4">Amount Due</td>
+              <td class="font-bold text-[#0D37A4] text-right">$400.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="my-6">
+      <table class="w-full text-left">
+        <thead class="text-black">
+          <tr class="border-b">
+            <th class="py-4">Payment terms</th>
+            <th>Status</th>
+            <th>Due</th>
+            <th class="text-right">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="font-bold text-black py-4">Down payment</td>
+            <td>Paid</td>
+            <td>15 Aug, 2023</td>
+            <td class="text-right">(10%) $12,315.00</td>
+          </tr>
+
+          <tr>
+            <td class="font-bold text-black py-4">Down payment</td>
+            <td>Pending</td>
+            <td>15 Aug, 2023</td>
+            <td class="text-right">(10%) $12,315.00</td>
+          </tr>
+
+          <tr>
+            <td class="font-bold text-black py-4">Down payment</td>
+            <td>Pending</td>
+            <td>15 Aug, 2023</td>
+            <td class="text-right">(10%) $12,315.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="mt-8">
+      <h2 class="font-bold text-black my-4 text-black">Note</h2>
+      <hr />
+      <p class="my-6 flex items-center gap-2">
+        <img src="./assets/quote.png" class="h-3 w-3" />
+        <span> Please pay within 15 days of receiving this invoice. </span>
+      </p>
+      <hr />
+    </div>
+    <div class="flex justify-between mt-8">
+      <div>Digital Product Designer, IN</div>
+      <div>
+        <span>+1 (000) 000 0000</span> |
+        <span>alec@elitemodularllc.com</span>
+      </div>
+    </div>
+  </body>
+</html>
